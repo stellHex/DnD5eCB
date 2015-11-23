@@ -1,0 +1,225 @@
+table: 0x5054a8 {
+[_G] => table: 0x5054a8 {
+          *table: 0x5054a8
+        }
+[rawlen] => function: 0x1f
+[require] => function: 0x506b38
+[tonumber] => function: 0x24
+[coroutine] => table: 0x5054a8 {
+                 [wrap] => function: 0x38
+                 [create] => function: 0x34
+                 [status] => function: 0x37
+                 [resume] => function: 0x35
+                 [running] => function: 0x36
+                 [yield] => function: 0x39
+               }
+[assert] => function: 0x12
+[type] => function: 0x26
+[xpcall] => function: 0x27
+[bit32] => table: 0x5054a8 {
+             [bnot] => function: 0x2a
+             [arshift] => function: 0x28
+             [bxor] => function: 0x2c
+             [lrotate] => function: 0x2f
+             [btest] => function: 0x2d
+             [rshift] => function: 0x33
+             [replace] => function: 0x31
+             [extract] => function: 0x2e
+             [rrotate] => function: 0x32
+             [band] => function: 0x29
+             [lshift] => function: 0x30
+             [bor] => function: 0x2b
+           }
+[_VERSION] => "Lua 5.2"
+[pcall] => function: 0x1c
+[js] => table: 0x5054a8 {
+          [pairs] => function: 0x50cc28
+          [null] => null
+          [global] => [object Window]
+          [new] => function: 0xe
+          [ipairs] => function: 0x50b740
+        }
+[unpack] => function: 0x96
+[io] => table: 0x5054a8 {
+          [read] => function: 0x51
+          [flush] => function: 0x4b
+          [stderr] => file (0xab8)
+          [stdin] => file (0xb28)
+          [close] => function: 0x4a
+          [stdout] => file (0xb98)
+          [tmpfile] => function: 0x52
+          [popen] => function: 0x50
+          [type] => function: 0x53
+          [write] => function: 0x54
+          [output] => function: 0x4f
+          [open] => function: 0x4e
+          [lines] => function: 0x4d
+          [input] => function: 0x4c
+        }
+[os] => table: 0x5054a8 {
+          [clock] => function: 0x79
+          [setlocale] => function: 0x81
+          [difftime] => function: 0x7b
+          [remove] => function: 0x7f
+          [tmpname] => function: 0x83
+          [getenv] => function: 0x7e
+          [time] => function: 0x82
+          [execute] => function: 0x7c
+          [date] => function: 0x7a
+          [rename] => function: 0x80
+          [exit] => function: 0x7d
+        }
+[next] => function: 0x1a
+[package] => table: 0x5054a8 {
+               [seeall] => function: 0x9b
+               [loaders] => table: 0x5059b0 {
+                              [1] => function: 0x506628
+                              [2] => function: 0x506650
+                              [3] => function: 0x506678
+                              [4] => function: 0x5066a0
+                              [5] => function: 0x50cc58
+                              [6] => function: 0x50cc70
+                            }
+               [loadlib] => function: 0x99
+               [cpath] => ""
+               [preload] => table: 0x5059b0 {
+                            }
+               [loaded] => table: 0x5059b0 {
+                             [_G] => table: 0x505e40 {
+                                       *table: 0x5054a8
+                                     }
+                             [string] => table: 0x505e40 {
+                                           [upper] => function: 0x91
+                                           [char] => function: 0x85
+                                           [lower] => function: 0x8c
+                                           [len] => function: 0x8b
+                                           [rep] => function: 0x8e
+                                           [gsub] => function: 0x8a
+                                           [sub] => function: 0x90
+                                           [reverse] => function: 0x8f
+                                           [gmatch] => function: 0x89
+                                           [match] => function: 0x8d
+                                           [format] => function: 0x88
+                                           [byte] => function: 0x84
+                                           [find] => function: 0x87
+                                           [dump] => function: 0x86
+                                         }
+                             [io] => table: 0x505e40 {
+                                       *table: 0x507028
+                                     }
+                             [os] => table: 0x505e40 {
+                                       *table: 0x506db8
+                                     }
+                             [coroutine] => table: 0x505e40 {
+                                              *table: 0x506bc8
+                                            }
+                             [table] => table: 0x505e40 {
+                                          [maxn] => function: 0x93
+                                          [pack] => function: 0x95
+                                          [concat] => function: 0x92
+                                          [insert] => function: 0x94
+                                          [sort] => function: 0x98
+                                          [remove] => function: 0x97
+                                          [unpack] => function: 0x96
+                                        }
+                             [bit32] => table: 0x505e40 {
+                                          *table: 0x506198
+                                        }
+                             [debug] => table: 0x505e40 {
+                                          [upvalueid] => function: 0x43
+                                          [traceback] => function: 0x49
+                                          [getupvalue] => function: 0x41
+                                          [setupvalue] => function: 0x48
+                                          [gethook] => function: 0x3c
+                                          [getinfo] => function: 0x3d
+                                          [getuservalue] => function: 0x3b
+                                          [setlocal] => function: 0x46
+                                          [upvaluejoin] => function: 0x42
+                                          [debug] => function: 0x3a
+                                          [setuservalue] => function: 0x44
+                                          [getmetatable] => function: 0x40
+                                          [getlocal] => function: 0x3e
+                                          [sethook] => function: 0x45
+                                          [getregistry] => function: 0x3f
+                                          [setmetatable] => function: 0x47
+                                        }
+                             [package] => table: 0x505e40 {
+                                            *table: 0x5059b0
+                                          }
+                             [math] => table: 0x505e40 {
+                                         [ceil] => function: 0x62
+                                         [sqrt] => function: 0x76
+                                         [asin] => function: 0x5f
+                                         [frexp] => function: 0x69
+                                         [atan] => function: 0x61
+                                         [huge] => inf
+                                         [tan] => function: 0x78
+                                         [sin] => function: 0x75
+                                         [tanh] => function: 0x77
+                                         [pi] => 3.1415926535898
+                                         [abs] => function: 0x5d
+                                         [floor] => function: 0x67
+                                         [rad] => function: 0x71
+                                         [exp] => function: 0x66
+                                         [randomseed] => function: 0x73
+                                         [ldexp] => function: 0x6a
+                                         [random] => function: 0x72
+                                         [cosh] => function: 0x63
+                                         [sinh] => function: 0x74
+                                         [deg] => function: 0x65
+                                         [pow] => function: 0x70
+                                         [acos] => function: 0x5e
+                                         [modf] => function: 0x6f
+                                         [max] => function: 0x6d
+                                         [min] => function: 0x6e
+                                         [log] => function: 0x6c
+                                         [log10] => function: 0x6b
+                                         [fmod] => function: 0x68
+                                         [cos] => function: 0x64
+                                         [atan2] => function: 0x60
+                                       }
+                           }
+               [path] => ""
+               [config] => "/
+test3.html:4 ;
+test3.html:4 ?
+test3.html:4 !
+test3.html:4 -
+test3.html:4 "
+               [searchpath] => function: 0x9a
+               [searchers] => table: 0x5059b0 {
+                                *table: 0x5065b8
+                              }
+             }
+[setmetatable] => function: 0x23
+[module] => function: 0x505940
+[collectgarbage] => function: 0x13
+[getmetatable] => function: 0x16
+[string] => table: 0x5054a8 {
+              *table: 0x506348
+            }
+[loadstring] => function: 0x19
+[window] => [object Window]
+[debug] => table: 0x5054a8 {
+             *table: 0x507808
+           }
+[math] => table: 0x5054a8 {
+            *table: 0x508a30
+          }
+[print_r] => function: 0x5065f0
+[table] => table: 0x5054a8 {
+             *table: 0x506ba0
+           }
+[dofile] => function: 0x14
+[select] => function: 0x22
+[rawget] => function: 0x20
+[tostring] => function: 0x25
+[print] => function: 0x1d
+[pairs] => function: 0x1b
+[loadfile] => function: 0x18
+[ipairs] => function: 0x17
+[error] => function: 0x15
+[rawequal] => function: 0x1e
+[load] => function: 0x19
+[rawset] => function: 0x21
+}
